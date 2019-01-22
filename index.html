@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Crystal Collector</h1>
+                <p class ="para">Click on the Crystals to add their values and match the number on the left.</p>
+                <p class ="para">If you go over the current number, you will lose.</p>
+
+            </div>
+        </div>
+
+        <div class="row" id="bottom">
+            <div class="col currentNumber">
+                <h4>Current Number:</h4>
+                <span id="randomNumber"></span>
+            </div>
+            <div class="col instructCrystals">
+                <div class="row instructions">
+                    <p id="wins">Wins:</p>
+                    <p id="losses">Losses:</p>
+                </div>
+                <div class="row crystalsLinks">
+                    <div class="col-md-3"><input type="image" src="assets/images/bluecrystal.png" name="saveForm" class="submit"
+                            id="blueBtn" /></div>
+                    <div class="col-md-3"><input type="image" src="assets/images/browncrystal.png" name="saveForm"
+                            class="submit" id="brownBtn" /></div>
+                    <div class="col-md-3"><input type="image" src="assets/images/greencrystal.png" name="saveForm"
+                            class="submit" id="greenBtn" /></button></div>
+                    <div class="col-md-3"><input type="image" src="assets/images/oilspillcrystal.png" name="saveForm"
+                            class="submit" id="purpleBtn" /></button></div>
+                </div>
+            </div>
+            <div class="col yourNumber">
+                <h4>Your total:</h4>
+                <div id="userTotal"></div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

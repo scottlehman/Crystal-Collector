@@ -1,0 +1,95 @@
+body {
+    background-image: url('../images/quartzbackground.jpg');
+    font-family: 'Staatliches', cursive;
+    color: yellowgreen;
+}
+
+.container {
+    opacity: .85;
+    padding: 0;
+    margin-top: 8%;
+
+}
+
+.jumbotron {
+    font-family: 'Bungee Inline', cursive;
+    background: rgb(138, 143, 143);
+    border-radius: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 6rem;    
+}
+
+#bottom {
+    width: auto;
+    margin: 0;
+}
+
+#randomNumber {
+    position: relative;
+    font-size: 10rem;
+    margin-left: 20%;
+}
+
+#userTotal {
+    position: relative;
+    font-size: 10rem;
+    margin-left: 20%;
+}
+
+.yourNumber {
+    padding-top: 10px;
+    width: 190px;
+    height: 240px;
+    background: rgb(138, 143, 143);
+    border-radius: 20px;
+}
+
+.currentNumber {
+    padding-top: 10px;
+    width: 190px;
+    height: 240px;
+    background: rgb(138, 143, 143);
+    border-radius: 20px;
+
+}
+
+.instructions {
+    width: 500px;
+    background: rgb(138, 143, 143);
+    border-radius: 20px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+
+#wins {
+    float: left;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+#losses {
+    float: right;
+}
+
+.submit {
+    border: none;
+    outline: none;
+}
+
+.crystalsLinks {
+    height: 130px;
+    width: 500px;
+    background: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin: 5px;
+}
